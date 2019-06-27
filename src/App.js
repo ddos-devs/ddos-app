@@ -11,7 +11,7 @@ function App() {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo"/>
                 <h1>
-                    קהילת הפתחים החרדים ושומרי תורה
+                    קהילת המפתחים החרדים ושומרי תורה
                 </h1>
                 <h2>
                     {config.description}
