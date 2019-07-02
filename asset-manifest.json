@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.32fda786.chunk.css",
+    "main.js": "/static/js/main.93b54b30.chunk.js",
+    "main.js.map": "/static/js/main.93b54b30.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.b1b4201c.chunk.js": "/static/js/2.b1b4201c.chunk.js",
+    "static/js/2.b1b4201c.chunk.js.map": "/static/js/2.b1b4201c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a0ccb6a56a9a4988d7aa8130becf41dc.js": "/precache-manifest.a0ccb6a56a9a4988d7aa8130becf41dc.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.32fda786.chunk.css.map": "/static/css/main.32fda786.chunk.css.map",
+    "static/media/listItem.png": "/static/media/listItem.6aa28789.png",
+    "static/media/logo.png": "/static/media/logo.ed180e39.png",
+    "static/media/meetup.png": "/static/media/meetup.dca786f8.png"
+  }
+}
