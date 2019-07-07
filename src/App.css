@@ -19,7 +19,7 @@ body {
 }
 
 .App-logo {
-  height: 20vmin;
+  height: 33vmin;
 }
 
 h1 {
@@ -70,10 +70,6 @@ p {
 @media(max-width: 500px) {
     body {
         padding: 20px;
-    }
-
-    h1 {
-        font-size: 2rem;
     }
 
     h2, h3, h4 {
