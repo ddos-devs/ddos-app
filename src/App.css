@@ -32,6 +32,14 @@ h2, h3, h4, .list {
   font-weight: 400;
 }
 
+.list {
+    list-style-type: none;
+}
+
+.list-item > * {
+    display: inline;
+}
+
 .list-item img{
   width: 4rem;
   margin-left: 1rem;
@@ -49,4 +57,34 @@ p {
 
 .network-icon img:hover {
   border-color: orange;
+}
+
+.list-item > * {
+    display: inline;
+}
+
+.list {
+    list-style-type: none;
+}
+
+@media(max-width: 500px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2, h3, h4 {
+        font-size: 1.4rem;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    li {
+        padding: 5px 0;
+    }
 }
