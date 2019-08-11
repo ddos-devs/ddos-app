@@ -1,35 +1,40 @@
 body {
-  padding: 50px;
-  background-color: #f9f9f9;
-  font-size: 1.2em;
-  margin: 0 auto;
-  max-width: 1000px;
+    font-size: 1.2em;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .App {
-  text-align: justify;
+    text-align: justify;
 }
 
 .App-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-size: cover;
+    background-image: url("./images/background.png");
 }
 
 .App-logo {
-  height: 33vmin;
+    height: 33vmin;
+}
+
+.description-container{
+    display: flex;
+    flex-direction: row;
 }
 
 h1 {
-  font-size: 3rem;
-  margin: 10px 0;
+    font-size: 3rem;
+    margin: 10px 0;
 }
 
 h2, h3, h4, .list {
-  font-size: 1.5rem;
-  font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .list {
@@ -40,23 +45,22 @@ h2, h3, h4, .list {
     display: inline;
 }
 
-.list-item img{
-  width: 4rem;
-  margin-left: 1rem;
+.list-item img {
+    width: 4rem;
+    margin-left: 1rem;
 }
 
 p {
-  text-align: center;
+    text-align: center;
 }
 
-.network-icon img{
-  width: 5rem;
-  padding: 0 15px 10px;
-  border-bottom: 10px solid transparent;
+.network-icon img {
+    width: 5rem;
+    padding: 0 15px 10px;
 }
 
 .network-icon img:hover {
-  border-color: orange;
+    border-color: orange;
 }
 
 .list-item > * {
@@ -67,7 +71,7 @@ p {
     list-style-type: none;
 }
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
     body {
         padding: 20px;
     }
