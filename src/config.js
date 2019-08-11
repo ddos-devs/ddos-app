@@ -11,10 +11,6 @@ const config = {
     targets: ["היכרות עם כל מה שקורה בתעשייה בארץ ובעולם.", "טרנדים טכנולוגים חדשים.", "כנסים טכנולוגים והאקטונים.", "קורסים טכנולוגים."],
     networks: [
         {
-            url: "https://www.facebook.com/groups/265568917670650/",
-            icon: Facebook
-        },
-        {
             url: "https://chat.whatsapp.com/LkhoVLUg8gAGw9vTdHtHJc",
             icon: Whatsapp,
             displayName: 'גברים'
@@ -23,6 +19,10 @@ const config = {
             url: "https://chat.whatsapp.com/LHD5e3egpIRC9subf5HYUK",
             icon: Whatsapp,
             displayName: 'נשים'
+        },
+        {
+            url: "https://www.facebook.com/groups/265568917670650/",
+            icon: Facebook
         },
         {
             url: "https://twitter.com/DDoSDevelopers",

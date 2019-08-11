@@ -39,6 +39,7 @@ h2, h3, h4, .list {
 
 .list {
     list-style-type: none;
+    padding: 10px;
 }
 
 .list-item > * {
@@ -71,11 +72,17 @@ p {
     list-style-type: none;
 }
 
+.bottom-line{
+    padding: 5px;
+}
+
 @media (max-width: 500px) {
     body {
-        padding: 20px;
+        width: 100%;
     }
-
+    .description-container{
+        flex-direction: column;
+    }
     h2, h3, h4 {
         font-size: 1.4rem;
     }
