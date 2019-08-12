@@ -14,8 +14,11 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+.app-header-background {
     background-size: cover;
-    background-image: url("./images/background.jpeg");
+    background-image: url("./images/background.png");
 }
 
 .App-logo {
