@@ -60,7 +60,7 @@ function App() {
                 <LinksContainer>
                     {config.networks.map(network => {
                         return (
-                            <StyledLink key={network.displayName} className="network-icon" href={network.url}>
+                            <StyledLink key={network.displayName} className="network-icon" target='_blank' href={network.url}>
                                 <img src={network.icon}/>
                                 <span>{network.displayName}</span>
                             </StyledLink>
