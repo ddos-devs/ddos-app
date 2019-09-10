@@ -37,6 +37,10 @@ h2, h3, h4, .list {
     font-weight: 400;
 }
 
+.joinas{
+    text-align: center;
+}
+
 .list {
     list-style-type: none;
     padding: 10px;
@@ -49,6 +53,10 @@ h2, h3, h4, .list {
 .list-item img {
     width: 4rem;
     margin-left: 1rem;
+}
+
+.network-icon span {
+    text-align: center;
 }
 
 p {

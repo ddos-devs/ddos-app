@@ -55,19 +55,17 @@ function App() {
                 <h4 className='bottom-line'>יחד מצמצמים את הפערים בחברה ומקדמים את הציבור שלנו לקדמת התעשייה!</h4>
             </header>
 
-            <p>
-                <h2>הצטרפו אלינו!</h2>
+                <h2 className='joinas'>הצטרפו אלינו!</h2>
                 <LinksContainer>
                     {config.networks.map(network => {
                         return (
-                            <StyledLink key={network.displayName} className="network-icon" target='_blank' href={network.url}>
+                            <StyledLink key={network.url} className="network-icon" target='_blank' href={network.url}>
                                 <img src={network.icon}/>
                                 <span>{network.displayName}</span>
                             </StyledLink>
                         )
                     })}
                 </LinksContainer>
-            </p>
         </div>
     );
 }
