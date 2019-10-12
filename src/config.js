@@ -6,7 +6,16 @@ import Meetup from "./images/meetup.png";
 import LinkedIn from "./images/linkedIn.png";
 import Youtube from "./images/youtube.png";
 
+function importAll(r) {
+    let images = {};
+    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    return images;
+}
+
+// const images = importAll(require.context('./images/meetups', false, '/\.jpeg/'));
+
 const config = {
+    // images,
     description: "קהילת המפתחים החרדים ושומרי התורה מאגדת ומחברת את כלל האנשים בתעשייה ומספקת להם את הצרכים שהמפתח צריך בסביבה הנוחה לאורח חיים שומר תורה",
     targets: ["היכרות עם כל מה שקורה בתעשייה בארץ ובעולם.", "טרנדים טכנולוגים חדשים.", "כנסים טכנולוגים והאקטונים.", "קורסים טכנולוגים."],
     networks: [

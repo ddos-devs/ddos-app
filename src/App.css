@@ -1,3 +1,6 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+
 body {
     font-size: 1.2em;
     margin: 0 auto;
@@ -22,9 +25,44 @@ body {
     height: 33vmin;
 }
 
-.description-container{
+.description-container {
     display: flex;
     flex-direction: row;
+}
+
+.newsletter {
+    width: max-content;
+    margin: auto;
+    height: auto;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.grid-list {
+    flex-wrap: nowrap;
+    transform: translateZ(0);
+}
+
+.image-list {
+    width: 80%;
+    margin: auto;
+}
+
+iframe {
+    width: 600px;
+    height: 450px;
+    border: 0;
+}
+
+form {
+    direction: rtl !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
 }
 
 h1 {
@@ -37,8 +75,10 @@ h2, h3, h4, .list {
     font-weight: 400;
 }
 
-.joinas{
+.joinas {
     text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 .list {
@@ -80,7 +120,7 @@ p {
     list-style-type: none;
 }
 
-.bottom-line{
+.bottom-line {
     padding: 5px;
 }
 
@@ -88,9 +128,11 @@ p {
     body {
         width: 100%;
     }
-    .description-container{
+
+    .description-container {
         flex-direction: column;
     }
+
     h2, h3, h4 {
         font-size: 1.4rem;
     }
