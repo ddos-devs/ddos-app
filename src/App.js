@@ -7,7 +7,6 @@ import './App.css';
 import styled from "styled-components";
 import ImageGallery from "react-image-gallery";
 import {slide as Menu} from 'react-burger-menu'
-import Modali, {useModali} from "modali";
 
 const LinksContainer = styled.div`
     display: flex;
