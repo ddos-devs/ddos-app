@@ -5,7 +5,9 @@
   "dependencies": {
     "@material-ui/core": "^4.1.1",
     "gh-pages": "^2.0.1",
+    "modali": "^1.2.0",
     "react": "^16.8.6",
+    "react-burger-menu": "^2.6.11",
     "react-dom": "^16.8.6",
     "react-image-gallery": "^0.9.1",
     "react-scripts": "3.0.1",

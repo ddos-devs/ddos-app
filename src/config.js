@@ -20,9 +20,24 @@ const config = {
     targets: ["היכרות עם כל מה שקורה בתעשייה בארץ ובעולם.", "טרנדים טכנולוגים חדשים.", "כנסים טכנולוגים והאקטונים.", "קורסים טכנולוגים."],
     networks: [
         {
-            url: "https://chat.whatsapp.com/LkhoVLUg8gAGw9vTdHtHJc",
+            url: "https://chat.whatsapp.com/KKzAmvXi8NMIAv5hjtW2Cz",
             icon: Whatsapp,
-            displayName: 'גברים'
+            displayName: 'שו"ת קוד'
+        },
+        {
+            url: "https://chat.whatsapp.com/K543eY23CtYJ29j3vRoAJw",
+            icon: Whatsapp,
+            displayName: 'מדברים'
+        },
+        {
+            url: "https://chat.whatsapp.com/DLKzCLkMbtqHiVKBnbg2rn",
+            icon: Whatsapp,
+            displayName: 'תעסוקה'
+        },
+        {
+            url: "https://chat.whatsapp.com/Fru4zuct76E5d6wGKuBQ16",
+            icon: Whatsapp,
+            displayName: 'עדכונים בלבד'
         },
         {
             url: "https://chat.whatsapp.com/LHD5e3egpIRC9subf5HYUK",
