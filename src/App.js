@@ -32,13 +32,12 @@ const RightSide = styled.div`
 
 function App() {
     const [menuOpenState, setMenuOpenState] = useState(false);
-    const [exampleModal, toggleExampleModal] = useModali();
-    const openAboutAsModal = useCallback(() =>{
-        setMenuOpenState(null);
-        const aa = menuOpenState;
-        // this.setState({menuOpenState: false});
-        // toggleExampleModal();
-    }, [menuOpenState, setMenuOpenState]);
+    // const openAboutAsModal = useCallback(() =>{
+    //     setMenuOpenState(null);
+    //     const aa = menuOpenState;
+    //     // this.setState({menuOpenState: false});
+    //     // toggleExampleModal();
+    // }, [menuOpenState, setMenuOpenState]);
     return (
         <div id='outer'>
             {/*<Menu*/}
